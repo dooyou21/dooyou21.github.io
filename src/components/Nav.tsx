@@ -6,7 +6,7 @@ export function Nav() {
 
   return (
     <nav>
-      <NavLink to="/links" className={({ isActive }) => isActive ? `${defualtNavStyle} text-blue-700 dark:text-blue-300` : defualtNavStyle} end>
+      <NavLink to="/" className={({ isActive }) => isActive ? `${defualtNavStyle} text-blue-700 dark:text-blue-300` : defualtNavStyle} end>
         Links
       </NavLink>
       <NavLink to="/resume" className={({ isActive }) => isActive ? `${defualtNavStyle} text-blue-700 dark:text-blue-300` : defualtNavStyle} end>
