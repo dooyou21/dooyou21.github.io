@@ -10,7 +10,7 @@ const logoStyle = 'inline stroke-blue-500 fill-blue-500 dark:stroke-blue-300 dar
 export function Links() {
   return (
     <div className="text-sm m-auto flex flex-col w-96 pt-24">
-      <ul className="text-center">
+      <ul className="text-center text-blue-950 dark:text-blue-50">
         <li>노래: <a className={linkStyle} href="https://soundcloud.com/dooyou21?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank"><SoundcloudSvg className={logoStyle} /> dooyou21</a></li>
         <li>코드: <a className={linkStyle} href="https://github.com/dooyou21" target="_blank"><GithubSvg className={logoStyle} /> dooyou21</a></li>
         <li>다듬은 긴 글: <a className={linkStyle} href="https://tobe.aladin.co.kr/t/dooyou21" target="_blank">투비로그</a></li>

@@ -1,13 +1,16 @@
-import { Outlet } from 'react-router';
 import { Nav } from './Nav.tsx';
 import './Layout.css';
+import { PropsWithChildren } from 'react';
 
-export function Layout() {
+export function Layout({
+  children,
+  ...props
+}: PropsWithChildren) {
   return (
     <>
       <Nav />
-      <main>
-        <Outlet />
+      <main {...props}>
+        {children}
       </main>
     </>
   );
