@@ -15,11 +15,12 @@ const importantDescriptionStyle = "text-blue-950 dark:text-blue-50 text-bold tex
 export function Links() {
   return (
     <div className="text-sm m-auto flex flex-col w-96 pt-24">
-      <h1>쓰는 사람(Identities)</h1>
+      <h1>이수정: 쓰는(Writing) 사람</h1>
+      <p>email: <a className={linkStyle} href="mailto:cubeclock94@gmail.com">cubeclock94@gmail.com</a></p>
+      <hr className={dividerStyle} />
       <p className={descriptionStyle}>편의를 위해 아래에 분야별로 분류해두었습니다</p>
       <p className={importantDescriptionStyle}> 어떤 일이든 함께 해보고 싶다면 제안해주세요:)</p>
-      <p className={descriptionStyle}>질문도 환영입니다!</p>
-      <p>email: <a className={linkStyle} href="mailto:cubeclock94@gmail.com">cubeclock94@gmail.com</a></p>
+      <p className={descriptionStyle}>조언, 질문, 온라인 커피챗 제안 전부 환영합니다!</p>
       <hr className={dividerStyle} />
       <figure className={centeredListStyle}>
         <figcaption className={listTitleStyle}>
@@ -41,7 +42,7 @@ export function Links() {
       </figure>
       <hr className={dividerStyle} />
       <figure>
-        <figcaption className={listTitleStyle}>🎼 곡 쓰는 사람, 🎹 피아노 치는 사람</figcaption>
+        <figcaption className={listTitleStyle}>🎹 피아노 치며 기록하는 사람, 🎼 곡 쓰는 사람</figcaption>
         <ul className={centeredListStyle}>
           <li>노래: <a className={linkStyle} href="https://soundcloud.com/dooyou21?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank"><SoundcloudSvg className={logoStyle} /> dooyou21</a></li>
           <li>피아노 연습에 대한 기록: <a className={linkStyle} href="https://www.threads.net/@dooyou21?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><ThreadsSvg className={logoStyle} /> dooyou21</a></li>
