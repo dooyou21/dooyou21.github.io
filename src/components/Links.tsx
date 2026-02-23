@@ -37,6 +37,7 @@ export function Links() {
       <figure className={centeredListStyle}>
         <figcaption className={listTitleStyle}>📝 읽고, 생각하고, 쓰는 사람</figcaption>
         <ul className={centeredListStyle}>
+          <li>육아일기: <a className={linkStyle} href="https://blog.naver.com/cubeclock94" target="_blank">네이버 블로그</a></li>
           <li>다듬은 긴 글: <a className={linkStyle} href="https://tobe.aladin.co.kr/t/dooyou21" target="_blank">투비로그</a></li>
           <li>개발 관련 긴 글: <a className={linkStyle} href="https://velog.io/@dooyou21/posts" target="_blank">velog - dooyou21</a></li>
           <li>짧은 글(주로 독후감): <a className={linkStyle} href="https://www.instagram.com/writing_sujeong?igsh=amU0aDFkZDJsNG9h&utm_source=qr" target="_blank"><InstagramSvg className={logoStyle} /> writing_sujeong</a></li>
